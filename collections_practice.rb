@@ -61,6 +61,6 @@ array.inject{|memo, num| memo += num if type(num)='int'; memo}
  end
  
   def add_s (array)
-array.each_with_index.collect{|element, index| element=element+"s" if index<>2}
+array.each_with_index.collect{|element, index| element=element+"s" if index!=2}
 end
  
