@@ -57,8 +57,8 @@ return b
  end
  
   def sum_array (array)
-  
-array.inject{|memo, num| memo += num if num.class=='Int';memo}
+  memo=0
+array.inject{|num| memo += num if num.class=='Int';memo}
  end
  
   def add_s (array)
