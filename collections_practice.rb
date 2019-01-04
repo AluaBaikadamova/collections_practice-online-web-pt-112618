@@ -45,10 +45,11 @@ array.each { |a| a[2] = "$" }
  end
  
  def find_a (array)
-s=""
+i=0
 array.each do |a| 
 if a.start_with? ("a") 
-  s+=a
+  b[i]=a
+  i+=1 
 end
 end
 return s
