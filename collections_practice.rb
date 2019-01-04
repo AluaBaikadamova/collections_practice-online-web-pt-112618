@@ -60,7 +60,7 @@ return b
   
 sum = 0
 array.each { |a| sum+=a }
-
+return sum
  end
  
   def add_s (array)
