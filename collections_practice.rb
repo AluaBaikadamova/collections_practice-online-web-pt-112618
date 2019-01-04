@@ -52,6 +52,6 @@ if a.start_with? ("a")
   i+=1 
 end
 end
-return s
+return b
  end
  
