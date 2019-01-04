@@ -57,7 +57,7 @@ return b
  end
  
   def sum_array (array)
-array.inject{|memo, num| memo += num if type(num)=int; memo}
+array.inject{|memo, num| memo += num if type(num)='int'; memo}
  end
  
  
