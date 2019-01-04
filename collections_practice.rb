@@ -57,15 +57,7 @@ return b
  end
  
   def sum_array (array)
-i=0
-b=[]
-array.each do |a| 
-if a.start_with? ("a") 
-  b[i]=a
-  i+=1 
-end
-end
-return b
+array.inject{|memo, num| memo += num; memo}
  end
  
  
