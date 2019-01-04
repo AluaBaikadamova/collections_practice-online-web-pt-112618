@@ -46,7 +46,8 @@ array.each { |a| a[2] = "$" }
  
  def find_a (array)
 s=""
-array.each { |a| a.start_with? "a" s+=a}
+array.each { |a| 
+if a.start_with? "a" s+=a}
 
  end
  
