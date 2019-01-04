@@ -33,9 +33,8 @@ def swap_elements_from_to (array,index,destination_index)
  end
  
  def reverse_array (array)
- a=array[index]
-     array[index]=array[destination_index]
-     array[destination_index]=a
-     return array
+str = ""
+array.reverse_each { |word| str += "#{word} " }
+p str
  end
  
