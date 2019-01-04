@@ -60,4 +60,7 @@ return b
 array.inject{|memo, num| memo += num if type(num)='int'; memo}
  end
  
+  def add_s (array)
+array.inject{|memo, num| memo += num if type(num)='int'; memo}
+ end
  
