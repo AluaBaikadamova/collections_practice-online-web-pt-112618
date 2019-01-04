@@ -40,7 +40,7 @@ array.reverse
  
   def kesha_maker (array)
 
-array.reverse
+arr.each { |a| print a -= 10, " " }
 
  end
  
